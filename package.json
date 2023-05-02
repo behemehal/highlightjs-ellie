@@ -1,0 +1,31 @@
+{
+  "name": "highlightjs-ellie",
+  "version": "1.0.0",
+  "description": "highlight.js support for the Ellie-Language",
+  "main": "index.ts",
+  "files": [
+    "ellie.js",
+    "dist"
+  ],
+  "scripts": {
+    "build": "mkdir -p dist && uglifyjs ellie.js -o dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/behemehal/highlightjs-ellie.git"
+  },
+  "keywords": [
+    "highlight-js",
+    "language",
+    "highlighting"
+  ],
+  "author": "Ahmetcan Aksu <ahmetcanaksu@behemehal.org>",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/behemehal/highlightjs-ellie/issues"
+  },
+  "homepage": "https://github.com/behemehal/highlightjs-ellie#readme",
+  "devDependencies": {
+    "uglify-js": "^3.17.4"
+  }
+}
